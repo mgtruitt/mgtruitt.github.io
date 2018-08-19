@@ -44,8 +44,8 @@ h3 {
   color: grey;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px
-}
+  font-size: 20px;
+  }
 
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
@@ -97,6 +97,7 @@ h3 {
   }
   .panel-body{
     background-color: #f8f8f8;
+    width: 110%;
     }
     
   }
@@ -114,7 +115,7 @@ h3 {
     font-weight: bold;
   }
   .paragraph2 {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 .paragraph3 {
