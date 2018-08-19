@@ -1,7 +1,7 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: #f1f1f1;
+  background: rgb(225, 227, 228);
 }
 
 h1 {
@@ -44,14 +44,14 @@ h3 {
   color: grey;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px
+  font-size: 20px;
 }
 
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 200px;
   padding-top: 20px;
-  background: white;
+  background: #cdcdcd;
 }
 
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
@@ -93,7 +93,7 @@ h3 {
     visibility: visible;
   }
   .text{
-    font-size: 30px;
+    font-size: 25px;
   }
   .panel-body{
     background-color: #f8f8f8;
@@ -101,13 +101,12 @@ h3 {
     
   }
   .panel{
-    background-color: #f8f8f8;
-    width: 100%;
+    background-color: rgb(225, 227, 228);
+    width: 175%;
     padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-left: 0;
    }
-  
    .paragraph1 {
     font-size: 40px;
     color: cadetblue;
@@ -116,9 +115,8 @@ h3 {
   .paragraph2 {
     font-size: 30px;
   }
-}
 .paragraph3 {
-  font-size: 40px;
-}
-
+  font-size: 30px;
+  margin-left: 20px;
+  text-align: right;
 }
