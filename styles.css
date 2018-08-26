@@ -1,17 +1,7 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background-color: #1b1818;
-  margin:0;
-  padding:0;
-  background: url(https://nssdc.gsfc.nasa.gov/image/planetary/mars/vikinglander2-2.jpg) no repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-
+  background: #f1f1f1;
 }
 
 h1 {
@@ -36,7 +26,7 @@ h3 {
 /* Giving our navbar some padding and a background color */
 .navbar {
   padding: 10px;
-  background: white;
+  background: rgb(106, 85, 122);
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -51,9 +41,11 @@ h3 {
 
 /* Getting rid of the default link styles here */
 .navbar li a {
-  color: #000;
+  color: grey;
   text-decoration: none;
-}
+  font-weight: bold;
+  font-size: 20px;
+  }
 
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
@@ -105,6 +97,7 @@ h3 {
   }
   .panel-body{
     background-color: #f8f8f8;
+    width: 110%;
     }
     
   }
@@ -122,7 +115,7 @@ h3 {
     font-weight: bold;
   }
   .paragraph2 {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 .paragraph3 {
